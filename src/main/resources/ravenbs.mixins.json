@@ -1,0 +1,32 @@
+{
+    "required": true,
+    "package": "xyz.ravenbs.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "client.MixinClientPlayerEntity",
+        "client.MixinClientPlayerInteractionManager",
+        "client.MixinMinecraftClient",
+        "client.MixinChatInputSuggestor",
+        "movement.MixinEntity",
+        "render.MixinLivingEntityRenderer",
+        "render.MixinBedBlockEntityRenderer",
+        "render.MixinChestBlockEntityRenderer",
+        "render.MixinShulkerBoxBlockEntityRenderer",
+        "render.MixinEntityGlowing",
+        "render.MixinCamera",
+        "render.MixinGameRenderer",
+        "render.MixinTextRenderer",
+        "client.MixinInGameHud",
+        "world.MixinFenceBlock",
+        "network.MixinClientConnection",
+        "accessor.IMixinMinecraftClient",
+        "accessor.AccessorEntityVelocityUpdateS2CPacket",
+        "accessor.AccessorExplosionS2CPacket",
+        "accessor.AccessorPlayerPositionLookS2CPacket",
+        "accessor.AccessorClientPlayerInteractionManager",
+        "accessor.InvokerGameRenderer"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

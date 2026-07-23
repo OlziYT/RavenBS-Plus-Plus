@@ -1,91 +1,46 @@
-  # Fichiers compilés Java
-*.class
-*.jar
-*.war
-*.ear
-
-# Dossiers et fichiers spécifiques à Minecraft/Forge
-run/
-logs/
-crash-reports/
-saves/
-screenshots/
-options.txt
-usercache.json
-usernamecache.json
-config/
-
-# Fichiers de build Gradle
+# Gradle
 .gradle/
 build/
 out/
-classes/
-remapped*/
 
-# Fichiers IDE
-## IntelliJ IDEA
+# Java
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ IDEA
 .idea/
-*.iml
+*.imap
 *.ipr
 *.iws
-.idea_modules/
+*.iml
 
-## Eclipse
-.settings/
+# Eclipse
 .classpath
 .project
+.settings/
 bin/
-eclipse/
 
-## VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/launch.json
-.history/
-*.code-workspace
+# VS Code
+.vscode/
 
-# Fichiers système
-## Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-
-## macOS
+# MacOS
 .DS_Store
-.AppleDouble
-.LSOverride
-._*
 
-## Linux
-*~
-.directory
-.Trash-*
-
-# Fichiers de développement
-## Logs
-*.log
-*.log.gz
-hs_err_pid*
-replay_pid*
-
-## Fichiers temporaires
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-
-# Fichiers spécifiques au mod
-## Fichiers de mapping
-*.mapping
-*.txt.map
-
-## Fichiers de cache
-.mixin.out/
-.architectury-transformer/
-
-# Exceptions importantes (fichiers à garder)
-!gradle/wrapper/gradle-wrapper.jar
-!.mvn/wrapper/maven-wrapper.jar
+# Fabric / Minecraft
+run/
+run_client/
+run_server/
+Replay_Mod_Recordings/
+screenshots/
+logs/
+crash-reports/
+/config/
+!/config/default_config.json

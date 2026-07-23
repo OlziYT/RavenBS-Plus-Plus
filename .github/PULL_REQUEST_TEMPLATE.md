@@ -1,27 +1,25 @@
-## Description
-Veuillez inclure un résumé des changements et du problème résolu. Veuillez également inclure la motivation et le contexte pertinents. Listez toutes les dépendances requises pour ce changement.
+## 📝 Description
+Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context.
 
-Fixes # (numéro d'issue)
+Fixes # (issue)
 
-## Type de changement
-Veuillez supprimer les options qui ne sont pas pertinentes.
+## 🏷️ Type of change
+- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
+- [ ] 🚀 New feature (non-breaking change which adds functionality)
+- [ ] ⚠️ Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] 🧹 Refactoring / Cleanup
+- [ ] 🌐 Localization / Translation
 
-- [ ] Correction de bug (changement non cassant qui corrige un problème)
-- [ ] Nouvelle fonctionnalité (changement non cassant qui ajoute une fonctionnalité)
-- [ ] Changement cassant (correction ou fonctionnalité qui empêcherait les fonctionnalités existantes de fonctionner comme prévu)
-- [ ] Ce changement nécessite une mise à jour de la documentation
+## ✅ Checklist:
+- [ ] My code follows the code style of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have verified that the client builds and runs successfully in a Clean Environment
 
-## Comment cela a-t-il été testé?
-Veuillez décrire les tests que vous avez effectués pour vérifier vos changements. Fournissez des instructions pour que nous puissions reproduire. Veuillez également lister tous les détails pertinents pour votre configuration de test.
+## 🧪 Testing Details
+Please describe the tests that you ran to verify your changes.
+*   **Test A:** [e.g. Enabled KillAura on Hypixel, verified rotations]
+*   **Test B:** [e.g. Checked Config loading after restart]
 
-- [ ] Test A
-- [ ] Test B
-
-## Liste de contrôle:
-- [ ] Mon code suit le style de code de ce projet
-- [ ] J'ai effectué une auto-révision de mon code
-- [ ] J'ai commenté mon code, particulièrement dans les zones difficiles à comprendre
-- [ ] J'ai apporté les modifications correspondantes à la documentation
-- [ ] Mes changements ne génèrent pas de nouveaux avertissements
-- [ ] J'ai ajouté des tests qui prouvent que ma correction est efficace ou que ma fonctionnalité fonctionne
-- [ ] Les tests unitaires nouveaux et existants passent localement avec mes changements
+## 📸 Visuals
+If this PR changes the UI or visual effects, please provide screenshots/video.

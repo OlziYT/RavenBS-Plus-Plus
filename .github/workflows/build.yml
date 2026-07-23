@@ -17,7 +17,10 @@ permissions:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
 
     steps:
     - uses: actions/checkout@v4
@@ -39,7 +42,7 @@ jobs:
       run: |
         $version = $env:GITHUB_REF -replace 'refs/tags/v',''
         $content = Get-Content -Path gradle.properties
-        $content = $content -replace 'version = .*', "version = $version"
+        $content = $content -replace 'mod_version = .*', "mod_version = $version"
         $content | Set-Content -Path gradle.properties
         
     - name: Build with Gradle
@@ -84,7 +87,7 @@ jobs:
       run: |
         $version = $env:GITHUB_REF -replace 'refs/tags/v',''
         $content = Get-Content -Path gradle.properties
-        $content = $content -replace 'version = .*', "version = $version"
+        $content = $content -replace 'mod_version = .*', "mod_version = $version"
         $content | Set-Content -Path gradle.properties
         
     - name: Build with Gradle
